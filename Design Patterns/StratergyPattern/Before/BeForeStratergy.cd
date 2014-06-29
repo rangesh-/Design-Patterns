@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Design_Patterns.StratergyPattern.After.Arithemetic">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Design_Patterns.StratergyPattern.Before.Arithemetic.Options" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StratergyPattern\Before\Arithemetic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Design_Patterns.StratergyPattern.After.Arithemetic.Options" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StratergyPattern\After\Arithemetic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StratergyPattern\After\Arithemetic.cs</FileName>
+      <NewMemberFileName>StratergyPattern\Before\Arithemetic.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Design_Patterns.StratergyPattern.Before.Operation">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>StratergyPattern\Before\Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

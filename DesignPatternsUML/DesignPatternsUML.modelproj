@@ -17,14 +17,21 @@
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
   <ItemGroup>
+    <Content Include="Stratergy_Pattern_Before.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Stratergy_Pattern_Before.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Stratergy_Pattern_Before.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UMLClassDiagram1.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLClassDiagram1.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLClassDiagram1.classdiagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
-    <Content Include="Bridge Pattern.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Bridge Pattern.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>Bridge Pattern.classdiagram</DependentUpon>
-    </Content>
     <Content Include="ModelDefinition\DesignPatternsUML.uml">
       <SubType>Content</SubType>
     </Content>

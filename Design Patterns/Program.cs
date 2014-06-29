@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Design_Patterns.Bridge_Pattern;
+using Design_Patterns.StratergyPattern.After;
 
 namespace Design_Patterns
 {
@@ -10,8 +11,16 @@ namespace Design_Patterns
     {
         static void Main(string[] args)
         {
-            InvokeBridgePattern();
+            //InvokeBridgePattern();
+            InvokeStratergyPattern();
+        }
 
+        private static void InvokeStratergyPattern()
+        {
+            var op=new MulOperation();
+            var result = new Operation(op);
+            var output = result.CalculateMetrics(new Arithemetic(){Operand1 =2,Operand2 =3,OpertionType = Arithemetic.Options.Add});
+            Console.WriteLine(output);
         }
 
         private static void InvokeBridgePattern()
