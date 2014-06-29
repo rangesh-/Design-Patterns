@@ -1,0 +1,5 @@
+C:\Users\rangesh\Documents\Visual Studio 2010\Projects\Experiments\Design Patterns\Design Patterns\bin\Debug\Design Patterns.exe
+C:\Users\rangesh\Documents\Visual Studio 2010\Projects\Experiments\Design Patterns\Design Patterns\bin\Debug\Design Patterns.pdb
+C:\Users\rangesh\Documents\Visual Studio 2010\Projects\Experiments\Design Patterns\Design Patterns\obj\x86\Debug\Design Patterns.csprojResolveAssemblyReference.cache
+C:\Users\rangesh\Documents\Visual Studio 2010\Projects\Experiments\Design Patterns\Design Patterns\obj\x86\Debug\Design Patterns.exe
+C:\Users\rangesh\Documents\Visual Studio 2010\Projects\Experiments\Design Patterns\Design Patterns\obj\x86\Debug\Design Patterns.pdb
