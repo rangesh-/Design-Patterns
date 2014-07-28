@@ -3,7 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Design_Patterns.Bridge_Pattern;
+using Design_Patterns.Decorartor_Pattern.Component;
+using Design_Patterns.Decorartor_Pattern.ConcreteComponent;
+using Design_Patterns.Decorartor_Pattern.ConcreteDecorator;
+using Design_Patterns.Factory_Patterns.Before;
+using Design_Patterns.State_Pattern.After;
+using Design_Patterns.State_Pattern.Before;
 using Design_Patterns.StratergyPattern.After;
+using CardReader = Design_Patterns.State_Pattern.After.CardReader;
 
 namespace Design_Patterns
 {
@@ -12,7 +19,34 @@ namespace Design_Patterns
         static void Main(string[] args)
         {
             //InvokeBridgePattern();
-            InvokeStratergyPattern();
+            //InvokeStratergyPattern();
+            //InvokeFactoryPattern();
+            //InvokeStatePattern();
+            InvokeDecoratorPattern();
+        }
+
+        private static void InvokeDecoratorPattern()
+        {
+       Pizza LargePizza=new LargePizza();
+            var cheesepizza = new Cheese(LargePizza);
+            Console.WriteLine(cheesepizza.getCost());
+
+        }
+
+        private static void InvokeStatePattern()
+        {
+            CardReader c=new CardReader();
+  c.PerformOperation(); //Instance will point to CardInsert
+c.PerformOperation();//Instance will point to CardHold
+c.PerformOperation();//Instance will point to CardDiscard
+        }
+
+        private static void InvokeFactoryPattern()
+        {
+            var obj = new ListCar();
+            var icar = obj.getCar("Audi");
+           icar.CarName();
+
         }
 
         private static void InvokeStratergyPattern()

@@ -6,11 +6,6 @@
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Enum Name="Design_Patterns.StratergyPattern.Before.Arithemetic.Options" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>StratergyPattern\Before\Arithemetic.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
       <Enum Name="Design_Patterns.StratergyPattern.After.Arithemetic.Options" Collapsed="true">
         <TypeIdentifier>
           <NewMemberFileName>StratergyPattern\After\Arithemetic.cs</NewMemberFileName>
@@ -30,5 +25,19 @@
       <FileName>StratergyPattern\Before\Operation.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Design_Patterns.State_Pattern.Before.CardReader">
+    <Position X="3.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAADAAAAAE=</HashCode>
+      <FileName>State Pattern\Before\CardReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Design_Patterns.State_Pattern.Before.CardReaderState">
+    <Position X="5.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State Pattern\Before\CardReader.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

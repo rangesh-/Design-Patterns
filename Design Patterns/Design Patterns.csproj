@@ -48,9 +48,21 @@
     <Compile Include="Bridge Pattern\FAQ.cs" />
     <Compile Include="Bridge Pattern\Iformatter.cs" />
     <Compile Include="Bridge Pattern\Imanuscript.cs" />
+    <Compile Include="Decorartor Pattern\Component\Pizza.cs" />
+    <Compile Include="Decorartor Pattern\ConcreteComponent\LargePizza.cs" />
+    <Compile Include="Decorartor Pattern\ConcreteComponent\MediumPizza.cs" />
+    <Compile Include="Decorartor Pattern\ConcreteComponent\SmallPizza.cs" />
+    <Compile Include="Decorartor Pattern\ConcreteDecorator\Cheese.cs" />
+    <Compile Include="Decorartor Pattern\Decorator\PizzaDecorator.cs" />
+    <Compile Include="Factory Patterns\Before\Audi.cs" />
+    <Compile Include="Factory Patterns\Before\BMW.cs" />
+    <Compile Include="Factory Patterns\Before\ICar.cs" />
+    <Compile Include="Factory Patterns\Before\ListCar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Bridge Pattern\StandardFormatter.cs" />
+    <Compile Include="State Pattern\After\CardReader.cs" />
+    <Compile Include="State Pattern\Before\CardReader.cs" />
     <Compile Include="StratergyPattern\After\AddOpertaion.cs" />
     <Compile Include="StratergyPattern\After\Arithemetic.cs" />
     <Compile Include="StratergyPattern\After\IOperationStratergy.cs" />
@@ -58,7 +70,10 @@
     <Compile Include="StratergyPattern\Before\Arithemetic.cs" />
     <Compile Include="StratergyPattern\Before\Operation.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Facade Pattern\After\" />
+    <Folder Include="Facade Pattern\Before\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="StratergyPattern\Before\BeForeStratergy.cd" />
   </ItemGroup>
